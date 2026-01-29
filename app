@@ -159,8 +159,9 @@ if st.button("🚀 เริ่มคำนวณ", use_container_width=True):
             for n, c in result.most_common():
                 st.write(f"🔸 เลข {n} → {c} ครั้ง")
 
-    except Exception as e:
+       except Exception as e:
         st.error(f"เกิดข้อผิดพลาด: {e}")
 
 st.caption("© สิงห์ 1 • v.5 Mobile WebApp")
+
 
